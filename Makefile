@@ -9,10 +9,10 @@ SRC = main.c\
 src/func.c\
 
 # All test source files
-TEST_SRC = src/func.c\
-test/test_conv.c
+#TEST_SRC = src/func.c\
+#test/test_conv.c
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+#TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
 INC	= -Iinc
