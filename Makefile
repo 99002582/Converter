@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = print
+PROJECT_NAME = Conversion
 
 # Output directory
 BUILD = build
@@ -9,10 +9,10 @@ SRC = main.c\
 src/func.c\
 
 # All test source files
-#TEST_SRC = src/calculator_operations.c\
-#test/test_calculator_operations.c
+TEST_SRC = src/func.c\
+test/test_conv.c
 
-#TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
 INC	= -Iinc
